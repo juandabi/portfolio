@@ -2,8 +2,10 @@ version: '3.4'
 
 services:
   personal-web:
+    image: personal-web
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: personal-web
     ports:
       - 8080:80
