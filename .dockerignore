@@ -1,0 +1,9 @@
+.vscode
+node_modules
+README.md
+.eslintignore
+eslintrc.json
+.gitignore
+.git
+.prettierrc.json
+LICENSE.md

@@ -1,10 +1,12 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  text-align: center;
 }
 
 .about__name {
   color: var(--clr-primary);
+  text-align: center;
 }
 
 .about__role {
@@ -32,7 +34,7 @@
 
 @media (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
+    align-items: center;
     margin-top: 2em;
   }
 }

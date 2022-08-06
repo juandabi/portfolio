@@ -9,9 +9,9 @@ import './Navbar.css'
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
-  const [showNavList, setShowNavList] = useState(true)
+  const [showNavList, setShowNavList] = useState(false)
 
-  const toggleNavList = () => setShowNavList(showNavList)
+  const toggleNavList = () => setShowNavList(!showNavList)
 
   return (
     <nav className='center nav'>
